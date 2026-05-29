@@ -141,9 +141,7 @@
                       aria-label="AI prompt input"
                       v-model="prompt"
                     />
-                    <div class="pointer-events-none absolute inset-x-3 bottom-3 text-[10px] text-white/45">
-                      Try: “neon city b-roll, cinematic sound design, fast cuts”
-                    </div>
+
                   </div>
 
                   <div class="mt-4 grid gap-2 sm:grid-cols-2">
@@ -185,17 +183,15 @@
                 </div>
               </div>
 
-              <div class="pointer-events-none absolute -left-3 top-10 hidden w-44 lg:block">
-                <div class="rounded-2xl border border-white/10 bg-black/40 p-4 shadow-[0_20px_70px_rgba(0,0,0,.55)] backdrop-blur">
-                  <div class="text-xs font-semibold text-white/60">Retention</div>
-                  <div class="mt-1 text-2xl font-extrabold text-white">+23%</div>
+              <div class="mt-4 grid grid-cols-2 gap-3">
+                <div class="rounded-xl border border-white/10 bg-black/20 p-3">
+                  <div class="text-[11px] font-semibold tracking-[0.12em] text-white/55">RETENTION</div>
+                  <div class="mt-2 text-xl font-extrabold text-white">+23%</div>
                 </div>
-              </div>
 
-              <div class="pointer-events-none absolute -right-3 bottom-4 hidden w-44 lg:block">
-                <div class="rounded-2xl border border-white/10 bg-black/40 p-4 shadow-[0_20px_70px_rgba(0,0,0,.55)] backdrop-blur">
-                  <div class="text-xs font-semibold text-white/60">CTR</div>
-                  <div class="mt-1 text-2xl font-extrabold text-white">3.8%</div>
+                <div class="rounded-xl border border-white/10 bg-black/20 p-3">
+                  <div class="text-[11px] font-semibold tracking-[0.12em] text-white/55">CTR</div>
+                  <div class="mt-2 text-xl font-extrabold text-white">3.8%</div>
                 </div>
               </div>
 
